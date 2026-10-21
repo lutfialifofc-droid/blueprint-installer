@@ -13,16 +13,14 @@ Automated, production-ready installer for the **[Blueprint Framework](https://bl
 
 ---
 
-## ⚡ Quick Install (One-Liner)
 
-Run the following command directly on your Pterodactyl server as `root` (replace `<USERNAME>` and `<REPO>` with your GitHub repository path once published):
 
 ```bash
-bash <(curl -sSL https://raw.githubusercontent.com/<USERNAME>/<REPO>/main/install-blueprint.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/lutfialifofc-droid/blueprint-installer/main/install-blueprint.sh)
 ```
 
 > [!NOTE]  
-> If your script is hosted under your own GitHub account, replace `<USERNAME>/<REPO>` with your actual repository name.
+> If your script is hosted under your own GitHub account, replace `lutfialifofc-droid/blueprint-installer` with your actual repository name.
 
 ---
 
@@ -51,7 +49,7 @@ If you prefer to clone or download the file manually:
 
 ```bash
 # 1. Download installer script
-wget -q https://raw.githubusercontent.com/<USERNAME>/<REPO>/main/install-blueprint.sh
+wget -q https://raw.githubusercontent.com/lutfialifofc-droid/blueprint-installer/main/install-blueprint.sh
 
 # 2. Make executable
 chmod +x install-blueprint.sh
